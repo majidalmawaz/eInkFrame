@@ -23,7 +23,7 @@ class DisplayManager:
         self.image_folder = image_folder
         self.rotation = 0
         self.refresh_time = refresh_time
-        self.epd = epd7in3f.EPD()
+        self.epd = epd7in3e.EPD() # updated for 6 color
         self.epd.init()
         self.stop_display = False
 
