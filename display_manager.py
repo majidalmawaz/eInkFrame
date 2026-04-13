@@ -3,7 +3,7 @@ import sys
 import time
 import random
 from PIL import Image
-from lib.waveshare_epd import epd7in3f
+from lib.waveshare_epd import epd7in3e # switched from epd7in3f to support 6 color screen
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 LIB_PATH = os.path.join(SCRIPT_DIR, 'lib')
